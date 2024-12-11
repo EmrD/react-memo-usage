@@ -14,8 +14,8 @@ function App() {
 
   return (
     <>
-        <TodoApp todo={todo} setTodo={setTodo} todos={todos} setTodos={setTodos}/>
         <Counter count={count} setCount={setCount} />
+        <TodoApp todo={todo} setTodo={setTodo} todos={todos} setTodos={setTodos}/>
     </>
   )
 }
